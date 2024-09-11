@@ -1,0 +1,145 @@
+/* General Container Styling */
+.bckground-container {
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.input-container {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.title-input,
+.date-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+  font-size: 16px;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #8b5cf6;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #dcdcdc;
+  margin: 20px 0;
+}
+
+.list-container {
+  margin-top: 20px;
+}
+
+.list-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.list-items li {
+  flex: 1 1 300px;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.card-item {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  height: 120px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  padding: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.title-container {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  color: #606060;
+  font-size: 18px;
+  margin: 4px 0 0;
+}
+
+.like-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.like-image {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
